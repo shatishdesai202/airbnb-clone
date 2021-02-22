@@ -1,0 +1,52 @@
+.banner{
+    background: url("../Images/banner.jpg") center center;
+    height: 60vh;
+    position: relative;
+}
+
+.banner__info{
+    opacity: 0.9;
+    background-color: rgb(117, 111, 106);
+    color: black;
+    width: 340px;
+    padding-top: 30vh;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+
+.kalam__quote{
+    margin-left: 200px;
+    color: blanchedalmond;
+}
+
+.banner__info > button {
+    
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color: #ff7779;
+  }
+  
+
+.banner__info > h4 {
+    margin-top: 10px;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+
+.search__date{
+    background-color: rgb(243, 202, 202) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
